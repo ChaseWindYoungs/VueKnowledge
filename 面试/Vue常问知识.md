@@ -65,14 +65,6 @@
         
         相比 Vue2.x 导入整个 Vue 对象，Vue3.0 支持按需导入，只打包需要的代码。Tree-Shaking 依赖 ES2015 模块语法的静态结构（即 import 和 export），通过编译阶段的静态分析，找到没有引入的模块并打上标记。像我们在项目中如果没有引入 Transition、KeepAlive 等不常用的组件，那么它们对应的代码就不会打包进去。
         
-        作者：前端萧萧
-        
-        链接：https://juejin.cn/post/6991754201873268749
-        
-        来源：稀土掘金
-        
-        著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
-        
     
 3. **组合式 API**
     - 选项式 API 存在的缺陷
@@ -140,7 +132,7 @@
         - beforeDestroy 实例销毁之前调用
         - destroyed 实例销毁之后调用，调用后Vue实例的所有东西都会被解绑，所有的事件监听会被移除，子实例被销毁，该钩子在服务端渲染期间不被调用keep-alive（activated & deactivated）
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6c9ceb82-95b5-4ff5-9ee4-6f3deeba84fc/Untitled.png)
+        ![Vue生命周期详解](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/19/16ca74f183827f46~tplv-t2oaga2asx-watermark.awebp)
         
 7. Vue的组件data为什么必须是一个函数?
     
