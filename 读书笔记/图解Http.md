@@ -6,6 +6,8 @@ HTTP（HyperText Transfer Protocol，超文本传输协议）
 
 ### 1、网络基础 **TCP/IP**
 
+---
+
 通常使用的网络（包括互联网）是在 TCP/IP 协议族的基础上运作 的。而 HTTP 属于它内部的一个子集。
 
 - 1）**TCP/IP** 协议族
@@ -106,7 +108,9 @@ HTTP（HyperText Transfer Protocol，超文本传输协议）
     ![URI格式](./imgs/URI格式.png)
     
 
-### 2、**简单的 HTTP 协议**
+## 2、**简单的 HTTP 协议**
+
+---
 
 **HTTP** 协议用于客户端和服务器端之间的通信，通过请求和响应的交换达成通信
 
