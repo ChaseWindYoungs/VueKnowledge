@@ -47,9 +47,9 @@ HTTP（HyperText Transfer Protocol，超文本传输协议）
     
     发送端从应用层往下走，接收端则往应用层往上走。
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6eee1339-d36f-4de1-94d4-6c3538e1795e/Untitled.png)
+    ![通信传输流](./imgs/通信传输流.png)
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/69e6688e-6e97-4161-ae84-9e5afa2f7c81/Untitled.png)
+    ![通信传输流封装](./imgs/通信传输流封装.png)
     
     发送端在层与层之间传输数据时，每经过一层时必定会被打上一个该 层所属的首部信息。
     
@@ -103,7 +103,7 @@ HTTP（HyperText Transfer Protocol，超文本传输协议）
     
     **URI** 格式
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/54f6aee6-9f17-4689-9438-9e31ab090a88/Untitled.png)
+    ![URI格式](./imgs/URI格式.png)
     
 
 ### 2、**简单的 HTTP 协议**
