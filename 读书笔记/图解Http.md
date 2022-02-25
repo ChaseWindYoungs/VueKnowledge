@@ -5,7 +5,6 @@ Web 是建立在何种技术之上，以及 HTTP 协议是如何诞 生并发展
 HTTP（HyperText Transfer Protocol，超文本传输协议）
 
 ### 1、网络基础 **TCP/IP**
-
 ---
 
 通常使用的网络（包括互联网）是在 TCP/IP 协议族的基础上运作 的。而 HTTP 属于它内部的一个子集。
